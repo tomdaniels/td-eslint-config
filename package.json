@@ -1,0 +1,19 @@
+{
+  "name": "td-eslint-config",
+  "version": "0.0.0",
+  "description": "global eslint config/rules to use across all td open source projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomdaniels/td-eslint-config.git"
+  },
+  "author": "Tom Daniels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomdaniels/td-eslint-config/issues"
+  },
+  "homepage": "https://github.com/tomdaniels/td-eslint-config#readme"
+}
