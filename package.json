@@ -20,7 +20,6 @@
     "eslint": "^4.9.0"
   },
   "devDependencies": {
-    "td-remark-config": "^3.0.0",
     "changelog-verify": "^1.0.4",
     "eslint": "^4.9.0",
     "husky": "^0.14.3",
@@ -41,11 +40,6 @@
   "eslintConfig": {
     "extends": [
       "./index.js"
-    ]
-  },
-  "remarkConfig": {
-    "plugins": [
-      "@domain-group/remark-preset-domain"
     ]
   },
   "lint-staged": {
