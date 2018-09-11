@@ -1,5 +1,5 @@
 {
-  "name": "td-eslint-config",
+  "name": "eslint-config-td-eslint-config",
   "version": "1.0.0",
   "description": "global eslint config/rules to use across all td open source projects",
   "main": "index.js",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/tomdaniels/td-eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^4.9.0"
+    "eslint": ">= 3"
   },
   "devDependencies": {
     "changelog-verify": "^1.0.4",
