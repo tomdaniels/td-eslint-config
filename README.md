@@ -40,5 +40,7 @@ yarn add eslint-config-td-eslint-config --dev prettier --dev
 }
 ```
 
+**Depending on your project set up substitute `src` for the primary directory**
+
 # 4. That's it!
 **Go write some pretty looking code ツ**
