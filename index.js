@@ -2,13 +2,16 @@ module.exports = {
   parser: 'babel-eslint',
   plugins: ['prettier'],
   extends: ['airbnb', 'prettier', 'prettier/react'],
+  env: {
+    'browser': true,
+    'node': true,
+  },
   rules: {
     'prettier/prettier': [
       'error',
       {
         singleQuote: true,
         trailingComma: 'all',
-        arrowParens: 'always',
       },
     ],
     'no-negated-condition': 'error',
@@ -42,6 +45,10 @@ module.exports = {
         argsIgnorePattern: '^_',
         ignoreRestSiblings: true,
       },
+    ],
+    'arrow-parens': [
+      'error',
+      'as-needed',
     ],
     curly: ['error', 'all'],
   },

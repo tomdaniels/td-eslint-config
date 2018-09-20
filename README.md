@@ -36,9 +36,11 @@ yarn add eslint-config-td-eslint-config --dev prettier --dev
 
 ```JSON
 {
-  "lint": "./node_modules/.bin/eslint *.js"
+  "lint": "./node_modules/.bin/eslint './src/**/*.js'",
 }
 ```
+
+**Depending on your project set up substitute `src` for the primary directory**
 
 # 4. That's it!
 **Go write some pretty looking code ツ**
