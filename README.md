@@ -36,7 +36,7 @@ yarn add eslint-config-td-eslint-config --dev prettier --dev
 
 ```JSON
 {
-  "lint": "./node_modules/.bin/eslint *.js"
+  "lint": "./node_modules/.bin/eslint './src/**/*.js'",
 }
 ```
 

@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    browser: true,
+    node: true,
+  },
   parser: 'babel-eslint',
   plugins: ['prettier'],
   extends: ['airbnb', 'prettier', 'prettier/react'],
@@ -8,7 +12,7 @@ module.exports = {
       {
         singleQuote: true,
         trailingComma: 'all',
-        arrowParens: 'as-needed',
+        arrowParens: 'always',
       },
     ],
     'no-negated-condition': 'error',
