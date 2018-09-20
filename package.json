@@ -4,6 +4,7 @@
   "description": "global eslint config/rules to use across all td open source projects",
   "main": "index.js",
   "scripts": {
+    "version": "version-changelog CHANGELOG.md && changelog-verify CHANGELOG.md && git add CHANGELOG.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,12 +21,12 @@
     "eslint": ">= 3"
   },
   "devDependencies": {
-    "changelog-verify": "^1.0.4",
+    "changelog-verify": "^1.1.0",
     "eslint": "^4.9.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "prettier": "^1.9.2",
-    "version-changelog": "^2.0.0"
+    "version-changelog": "^3.1.0"
   },
   "dependencies": {
     "babel-eslint": "^8.0.2",
