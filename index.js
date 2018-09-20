@@ -8,7 +8,7 @@ module.exports = {
       {
         singleQuote: true,
         trailingComma: 'all',
-        arrowParens: 'always',
+        arrowParens: 'as-needed',
       },
     ],
     'no-negated-condition': 'error',
