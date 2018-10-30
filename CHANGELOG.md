@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][]
+
+## [1.2.0][] - 2018-10-30
 ### Added
 - 120 line length max for code, ignore comments and requires
 
@@ -13,3 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 - Created td-eslint-config
+
+
+[Unreleased]: https://github.com/tomdaniels/td-eslint-config/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/tomdaniels/td-eslint-config/tree/v1.2.0
