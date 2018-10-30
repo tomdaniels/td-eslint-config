@@ -51,5 +51,15 @@ module.exports = {
       'as-needed',
     ],
     curly: ['error', 'all'],
+    'max-len': [
+      'error',
+      {
+        code: 120,
+        ignoreComments: true,
+        ignoreTrailingComments: true,
+        // ignore module import/require statements
+        ignorePattern: "^\\s*var\\s.+=\\s*require\\s*\\(",
+      }
+    ]
   },
 };
