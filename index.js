@@ -13,6 +13,9 @@ module.exports = {
         singleQuote: true,
         trailingComma: 'all',
       },
+      {
+        usePrettierrc: false,
+      },
     ],
     'no-negated-condition': 'error',
     'react/jsx-filename-extension': [

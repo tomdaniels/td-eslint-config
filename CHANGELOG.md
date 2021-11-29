@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][]
+### Fixed
+- disable .prettierrc files (avoid conflicting rules)
 
 ## [1.3.1][] - 2021-11-29
 ### Fixed
