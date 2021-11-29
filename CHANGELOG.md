@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][]
+
+## [1.3.1][] - 2021-11-29
 ### Fixed
 - allow no arrow-parens (rule enabled by default)
 
@@ -25,6 +27,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Created td-eslint-config
 
 
-[Unreleased]: https://github.com/tomdaniels/td-eslint-config/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/tomdaniels/td-eslint-config/compare/v1.3.1...HEAD
+[1.3.1]: https://github.com/tomdaniels/td-eslint-config/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/tomdaniels/td-eslint-config/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/tomdaniels/td-eslint-config/tree/v1.2.0
