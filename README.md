@@ -1,4 +1,4 @@
-# td-eslint-config
+# td-eslint-config [![npm version](https://badge.fury.io/js/eslint-config-td-eslint-config.svg)](https://badge.fury.io/js/eslint-config-td-eslint-config)
 
 Global eslint rules for easy maitenance across any/all of my projects. 
 
