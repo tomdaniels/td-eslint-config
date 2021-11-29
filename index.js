@@ -3,8 +3,8 @@ module.exports = {
   plugins: ['prettier'],
   extends: ['airbnb', 'prettier', 'prettier/react'],
   env: {
-    'browser': true,
-    'node': true,
+    browser: true,
+    node: true,
   },
   rules: {
     'prettier/prettier': [
@@ -46,8 +46,8 @@ module.exports = {
         ignoreComments: true,
         ignoreTrailingComments: true,
         // ignore module import/require statements
-        ignorePattern: "^\\s*var\\s.+=\\s*require\\s*\\(",
-      }
-    ]
+        ignorePattern: '^\\s*var\\s.+=\\s*require\\s*\\(',
+      },
+    ],
   },
 };
