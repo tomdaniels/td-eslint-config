@@ -29,6 +29,7 @@ module.exports = {
         allowAfterThis: true,
       },
     ],
+    'arrow-parens': ['error', 'as-needed'],
     'no-unused-vars': [
       'error',
       {
