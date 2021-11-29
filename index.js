@@ -22,14 +22,6 @@ module.exports = {
       },
     ],
     'react/no-direct-mutation-state': 'error',
-    'id-length': [
-      'error',
-      {
-        min: 3,
-        properties: 'never',
-        exceptions: ['_'],
-      },
-    ],
     'padded-blocks': 'off',
     'no-underscore-dangle': [
       'error',
@@ -45,10 +37,6 @@ module.exports = {
         argsIgnorePattern: '^_',
         ignoreRestSiblings: true,
       },
-    ],
-    'arrow-parens': [
-      'error',
-      'as-needed',
     ],
     curly: ['error', 'all'],
     'max-len': [
