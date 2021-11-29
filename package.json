@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-td-eslint-config",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "description": "global eslint config/rules to use across all td open source projects",
   "main": "index.js",
   "scripts": {
