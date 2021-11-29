@@ -6,9 +6,6 @@ module.exports = {
     node: true,
   },
   rules: {
-    quotes: [
-      'single',
-    ],
     'no-negated-condition': 'error',
     'react/jsx-filename-extension': [
       'warn',
